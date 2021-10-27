@@ -9,7 +9,7 @@ const TextContainer = ({ users }) => (
     <div>
       <h1 style = {{background : "linear-gradient(90deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%)", borderRadius : "5px", padding : "10px", display : "flex", alignItems : "center", justifyContent : "center" }}>InstaChat</h1>
       <h2>Created with React, Express, Node and Socket.IO <span role="img" aria-label="emoji">❤️</span></h2>
-      <h6 className = "sourceCode" style = {{color : "hsla(232, 73%, 65%, 1)"} }><a href = "https://github.com/m6un/InstaChat">sourceCode</a></h6>
+      <h6 className = "sourceCode" style = {{color : "hsla(232, 73%, 65%, 1)"} }><a href = "https://github.com/m6un/insta-chat">sourceCode</a></h6>
     </div>
     {
       users
